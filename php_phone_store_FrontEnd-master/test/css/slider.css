@@ -1,0 +1,160 @@
+@charset "utf-8";
+.slider{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	background: rgb(62,55,98);
+	padding-top: 20px;
+}
+.slide-Show-Container{
+	width: 980px;
+	box-sizing: border-box;
+	margin-left: 270px;
+	padding-top: 20px;
+	position: relative;
+	
+}
+
+.slide-Show{
+	
+	width: 980px;
+	overflow: hidden;
+	box-shadow: 0 2px 7px black;
+	display: none;
+	display: flex;
+	
+	
+}
+.slide-image{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 60%;
+    background: #292E6C;
+	float: left;
+	
+}
+.slide-image>img{
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: fill;
+}
+
+.slide-detail{
+	width: 40%;
+	height: 330px;
+	padding: 30px;
+	background: #11142F;
+	float: left;
+	box-sizing: border-box;
+	
+}
+.slide-detail>h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+	
+}
+.slide-info{
+	font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+.slide-price{
+	font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.slide-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+.btn-shopping{
+	display: flex;
+	justify-content: center;
+}
+.btn-shopping button{
+	width: 150px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: white;
+	background: #E64561;
+	transition: 0.3s;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 2px 7px black;
+}
+.btn-shopping button:hover{
+	color: #F543ED;
+	background: #412098;
+}
+
+/*CSS pre next*/
+.cursor {
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

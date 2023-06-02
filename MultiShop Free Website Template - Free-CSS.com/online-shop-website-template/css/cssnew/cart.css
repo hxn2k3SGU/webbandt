@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo-index-img img {
+    width: 50px;
+    height: auto;
+}
+.img-footer{
+    width: 50px;
+    height: auto
+}

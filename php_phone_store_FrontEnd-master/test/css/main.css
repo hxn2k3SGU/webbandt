@@ -1,0 +1,32 @@
+@charset "utf-8";
+.main1{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: auto;
+	min-width: 1500px;
+}
+.main1-container{
+	background: rgb(62,55,98);
+	padding: 10px 20%;
+}
+.main1-heading{
+	
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	cursor: context-menu;
+}
+.grid-container {
+	width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background: rgb(62,55,98);
+	column-gap: 10px;
+  
+}
+.main2{
+	
+	box-sizing: border-box;
+	background: rgb(62,55,98)
+}
